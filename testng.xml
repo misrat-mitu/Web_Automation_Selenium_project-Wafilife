@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true"
+          name="C:/Users/HP/IdeaProjects/Web_Automation_Selenium_project-Wafilife/src/test/java/TestCases">
+        <classes>
+            <class name="TestCases.TestLogin">
+                <methods>
+                    <include name="TestUserCanLoginWithValidCredentials"/>
+                </methods>
+            </class>
+            <class name="TestCases.TestWriterMenuNavigation">
+                <methods>
+                    <include name="TestUserCanClickWriterMenu"/>
+                </methods>
+            </class>
+            <class name="TestCases.TestScrollAndPagination">
+                <methods>
+                    <include name="TestScrollDownAndClickNextPage"/>
+                </methods>
+            </class>
+            <class name="TestCases.TestSelectAuthorName">
+                <methods>
+                    <include name="TestUserCanSelectDrAbulHossainAsAuthor"/>
+                </methods>
+            </class>
+            <class name="TestCases.TestViewBookDetails">
+                <methods>
+                    <include name="testUserCanViewBookDetails"/>
+                </methods>
+            </class>
+            <class name="TestCases.TestForOrderBook">
+                <methods>
+                    <include name="testClickOrderButton"/>
+                </methods>
+            </class>
+            <class name="TestCases.TestCompleteOrder">
+                <methods>
+                    <include name="testUserCanCompleteOrder"/>
+                </methods>
+            </class>
+            <class name="TestCases.TestBillingAndShippingForm">
+                <methods>
+                    <include name="testUserCanFillBillingForm"/>
+                </methods>
+            </class>
+
+            <class name="TestCases.TestMainPage">
+                <methods>
+                    <include name="TestMainPageTitle"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
